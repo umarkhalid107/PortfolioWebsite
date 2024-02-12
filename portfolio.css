@@ -1,0 +1,231 @@
+.item0 {
+  text-align: right;
+}
+.item1 {
+    /* grid-column: 1/6; */
+    /* overflow: hidden; */
+    text-align: left;
+    padding-left: 7%;
+    /* background-image: url('vibrant-cherry-blossom-bouquet.jpg');
+    background-size: cover; */
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: sample 2s 3s;
+    line-height: normal;
+}
+
+.item2 {
+    padding-right: 3%;
+    text-align: center;
+    font-size: 25px;
+  
+}
+
+.button {
+  align-items: center;
+  font-size: 25px;
+  padding: 10px;
+  width: 130px;
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 4px;
+  margin: 4px 2px;
+  text-align: center;
+}
+.button:hover {
+  opacity: 0.6;
+  background-color: slategrey;
+}
+
+@keyframes sample {
+    0%{padding-top: 40%;}
+    /* 50%{padding-top: 450px;} */
+    100%{padding-top: 20%px;}
+}
+
+.secondimage {
+  margin-top: 0px;
+  background-image: url('websitebanner.jpg');
+  background-size: cover !important;
+  /* background-position: left bottom, right top; */
+  /* background-repeat: no-repeat, no-repeat; */
+}
+
+.fa {
+    padding: 20px;
+    font-size: 22px;
+    width: 65px;
+    /* height: 50px; */
+    text-align: left;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: solid 2px white;
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+  }
+  
+
+.fa-facebook {
+    background: transparent;
+    color: white;
+  }
+
+.fa-twitter {
+    background: transparent;
+    color: white;
+  }
+
+.fa-instagram {
+    background: transparent;
+    color: white;
+  }
+
+.fa-youtube {
+    background: transparent;
+    color: white;
+  }
+
+.div-2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all;
+}
+
+.item3 {
+  /* overflow: hidden; */
+  /* border: solid 2px black; */
+  box-shadow: 0px 10px 9px 0px rgba(240, 240, 240, 0.75);
+}
+
+.item3:hover{
+  width: 80%;
+  height: 80%;
+  box-shadow: 5px 10px 9px 5px rgba(220, 220, 220, 0.75);
+}
+
+.item4 {
+  grid-column: 3/5;
+  text-align: left;
+  color: blue;
+  font-size: 65px;
+  line-height: normal;
+}
+/* .item4:hover:hover{
+  width: 680px;
+  height: 350px;
+  box-shadow: 5px 10px 9px 5px rgba(220, 220, 220, 0.75);
+} */
+.item5 {
+  grid-column: 2/6;
+  text-align: left;
+  padding-top: 20px;
+}
+
+
+.item6 {
+  text-align: left;
+  padding-top: 20px;
+}
+
+/* Slider */
+.mySlides {
+  width: 60%;
+  position: absolute;
+}
+
+.review{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+
+/* nav bar */
+
+header {
+  /* position: fixed; */
+  font-size: 28px;
+  color: skyblue;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+}
+
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 20px;
+}
+
+header li a {
+  /* color: black; */
+  text-decoration: none;
+}
+header li a:hover{
+  opacity: 0.7;
+}
+header img {
+  height: 60px;
+  align-content: left;
+}
+
+
+.ceo img {
+  /* border: solid 2px white; */
+  height: 150px;
+  width: auto;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+  align-content: center;
+  /* margin-left: 200px; */
+  margin-top: 40px;
+}
+
+.ceomessage{
+  padding-top: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.project1 {
+  background-image: url("img_snow.jpg");
+  color: gray;
+  font-size: 30px;
+  text-align: center;
+  line-height: normal;
+  border-radius: 4px;
+  animation: sample1 3s 2s;
+}
+
+.project2 {
+  background-image: url("img_forest.jpg");
+  color: gray;
+  font-size: 30px;
+  text-align: center;
+  line-height: normal;
+  border-radius: 4px;
+}
+
+.project3 {
+  background-image: url("img_mountains.jpg");
+  color: gray;
+  font-size: 30px;
+  text-align: center;
+  line-height: normal;
+  border-radius: 4px;
+}
+
+@keyframes sample1 {
+  0%{padding-top: 60%;}
+  /* 50%{padding-top: 450px;} */
+  100%{padding-top: 0%;}
+}
